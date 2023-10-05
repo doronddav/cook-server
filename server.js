@@ -1,8 +1,8 @@
 //  require('./express/expressServer')
- require('./mongoose/connectToDB.js')
+ require('./src/mongoose/connectToDB.js')
 
  const express = require("express");
-const recipeRouter = require("./express/routes/recipeRoutes.js");
+const recipeRouter = require("./src/express/routes/recipeRoutes.js");
 const cors = require("cors");
 
 const server = express();
